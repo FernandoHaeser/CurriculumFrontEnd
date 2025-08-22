@@ -52,7 +52,7 @@ Ideal para estudantes e profissionais que desejam apresentar suas informações 
 
 ## 📷 Exemplo de visualização
 
-![Exemplo de layout do currículo](images/foto_visualizacao.jpg)
+![Exemplo de layout do currículo](images/foto_visualizacao.jpeg)
 
 ---
 
