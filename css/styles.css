@@ -1,0 +1,99 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100..900;1,100..900&display=swap');
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+html {
+    background-color: rgb(247, 241, 234);
+    color: black;
+    font-family: "Montserrat", sans-serif;
+    font-weight: 400px;
+    margin: 200px;
+}
+
+body {
+  background-color: white;
+  border-radius: 50px;
+}
+
+.header-text {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+}
+
+.dados-pessoais {
+  margin-top: 0.5rem;
+}
+
+.dados-pessoais h2 {
+  font-size: 1.2rem;
+}
+
+.dados-pessoais ul {
+  list-style: none;
+  padding-left: 2px;
+}
+
+.header-container {
+  display: flex;
+  align-items: center;
+  justify-content: flex-start; /* Alinha à esquerda */
+  gap: 2rem;
+  margin-top: 2rem;
+  margin-left: 2rem; /* Opcional: dá um espaço da borda esquerda */
+}
+
+.header-container img {
+  width: 200px;
+  height: 200px;
+  object-fit: cover;
+  border-radius: 50%;
+  margin: 2px;
+}
+
+.header-container h1 {
+  text-align: left;
+  font-size: 3rem;
+  font-weight: 700;
+  padding: 20px;
+}
+
+.divisoria {
+  border: none;
+  border-top: 2px solid #d1bfa3;
+  margin: 2rem auto;
+  width: 95%;
+  display: block;
+}
+
+main {
+  padding: 2rem;
+  display: flex;
+  flex-direction: column;
+  gap: 1.5rem;
+  margin: 40px;
+  border-radius: 10px;
+  border: black;
+}
+
+footer {
+  padding: 2rem;
+  display: flex;
+  flex-direction: column;
+  gap: 1.5rem;
+}
+
+ul {
+  padding: 1rem;
+  flex-direction: column;
+}
+
+ol {
+  padding: 1rem;
+  flex-direction: column;
+}
+
